@@ -1,0 +1,23 @@
+{
+	"name": "stevongo/beleg",
+	"type": "typo3-cms-beleg",
+	"description": "My first test Project",
+	"license": "GPL-2.0-or-later",
+	"require": {
+			"typo3/cms-core": "^9.5 || ^10.1"
+	},
+	"replace": {
+	 "stevongo/beleg": "self.version",
+	 "typo3-ter/beleg": "self.version"
+	},
+	"extra": {
+			"typo3/cms": {
+					"beleg": "my_extension"
+			}
+	},
+	"autoload": {
+			"psr-4": {
+			"stevongo\\beleg\\": "Classes/"
+	  }
+	}
+}
